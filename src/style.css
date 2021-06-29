@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+h1, p {
+  font-family: Lato;
+}
+
+.dd-font {
+  font-family: 'IBM Plex Mono', monospace;
+}
+.dd-menu {
+  font-family: 'Open Sans', sans-serif;
+}
+
+    
+.underline {
+  height:0.36rem;
+  width:0%;
+  transition: width 0.3s
+}
+
+li:hover .underline{
+  width: 100%;
+}
+
+li:hover svg{
+  color: black;
+}
+
+ ul li ul {
+  visibility: hidden;
+  position: absolute;
+  transition: all 0.3s ease-in-out 0.2s;
+  margin-top: 106px;
+  opacity: 0;
+}
+
+ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-10px);
+}
+
+nav div div.contact-button {
+  background-image: url("https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60cf7833102e0b25d74dba9a_Group%2048.svg");
+  background-color: #000000; /* Used if the image is unavailable */
+  height: 48px; /* You must set a specified height */
+  width: 145px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
