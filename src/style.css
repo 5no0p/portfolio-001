@@ -17,7 +17,8 @@ h1, p {
 .underline {
   height:0.36rem;
   width:0%;
-  transition: width 0.3s
+  transition: width 0.3s;
+  background-color: #ffae00;
 }
 
 li:hover .underline{
@@ -50,4 +51,30 @@ nav div div.contact-button {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+}
+
+.navbar{
+  background-color: white;
+  position: relative;
+  z-index: 50;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-background {
+  position: relative;
+}
+
+.home-1 {
+  position: relative;
+  top: -35px;
+  right: -700px;
+  width: 80%;
+  height: 80%;
+}
+
+.home-2 {
+  position: relative;
 }

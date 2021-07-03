@@ -8,7 +8,7 @@ import Right from './components/right'
 const Nav = () => {
   return (
     <>
-      <nav className="grid grid-cols-6 bg-white-500 shadow-lg z-50">
+      <nav className="navbar grid grid-cols-6 shadow-lg">
         <Left/>
         <Center/>
         <Right/>

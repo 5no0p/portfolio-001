@@ -53,7 +53,7 @@ const ListItems = ({info}) =>{
               {info.name}
             </div>
             <div className={`-mt-3 static`} style={{height:"100%"}}>
-              <div className={`bg-blue-300 underline`}></div>
+              <div className={`underline`}></div>
             </div>
           </div>
           {info.isDropDown
