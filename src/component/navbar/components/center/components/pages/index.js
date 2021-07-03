@@ -27,7 +27,7 @@ const Pages = () =>{
     children:['Notitem','Notitem2','Notitem3','Notitem4']
   }
   const Contact = {
-    name:"Contact",
+    name:"Contacts",
     isDropDown:false,
   }
   return (

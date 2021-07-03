@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 
+body {
+  overflow-x: hidden;
+}
+
 h1, p {
   font-family: Lato;
 }
@@ -73,8 +77,53 @@ nav div div.contact-button {
   right: -700px;
   width: 80%;
   height: 80%;
+  z-index: 20;
 }
 
 .home-2 {
   position: relative;
+  top: -920px;
+  left: 670px;
+  z-index: 10;
+
+  
+}
+
+.rotate {
+  
+  animation: fade-in 4s,rotation 50s infinite linear;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.right-left-anime {
+  transition:all 1s;
+  animation: rla 1s;
+}
+
+@keyframes rla {
+  from {
+    opacity: 0;
+    right: -800px;
+  }
+  to {
+    opacity: 1;
+    right: -700px;
+  }
 }
