@@ -33,6 +33,11 @@ li:hover svg{
   color: black;
 }
 
+nav ul li a {
+  color: #212121;
+  font-size: 17px;
+}
+
  ul li ul {
   visibility: hidden;
   position: absolute;
@@ -60,6 +65,7 @@ nav div div.contact-button {
 .navbar{
   background-color: white;
   position: relative;
+  height: 100px;
   z-index: 50;
 }
 
@@ -85,12 +91,25 @@ nav div div.contact-button {
   top: -920px;
   left: 670px;
   z-index: 10;
+}
 
-  
+.home-3 {
+  position: relative;
+  top: -1220px;
+  right: 750px;
+  z-index: 10;
+}
+
+.home-4 {
+  position: relative;
+  top: -2000px;
+  right: 30px;
+  width: 375px;
+  height: 136px;
+  z-index: 10;
 }
 
 .rotate {
-  
   animation: fade-in 4s,rotation 50s infinite linear;
 }
 
@@ -126,4 +145,27 @@ nav div div.contact-button {
     opacity: 1;
     right: -700px;
   }
+}
+
+.hero .main-hero{
+  position: relative;
+  top: -2050px;
+  left: 120px;
+  z-index: 30;
+}
+
+.hero .main-hero .primery{
+  
+  font-size: 50px;
+}
+
+.hero .main-hero .secondery{
+  
+  color: #ffc13e;
+  font-size: 50px;
+}
+
+.hero .main-hero .primery-paragraph{
+  
+  font-size: 16px;
 }
