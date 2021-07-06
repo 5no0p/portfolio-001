@@ -51,6 +51,17 @@ nav ul li a {
   font-size: 17px;
 }
 
+nav ul li a .nab-prim{
+  letter-spacing: 0.32px;
+  line-height: 30px;
+  list-style-type: disc;
+  vertical-align: baseline;
+}
+
+nav ul li {
+  margin-right: 35px;
+}
+
  ul li ul {
   visibility: hidden;
   position: absolute;

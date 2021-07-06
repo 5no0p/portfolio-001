@@ -122,18 +122,18 @@ const ListItems = ({info}) =>{
   return (
     <>
       <li className="dropdown flex flex-wrap content-center group inline-block relative dropdown h-full cursor-pointer">
-        <a href="#" className="flex justify-start ml-6">
+        <a href="#" className="flex justify-start">
           <div className="static ">
-            <div className="dd-font font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
+            <div className="nab-prim dd-font font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
               {info.name}
             </div>
-            <div className={`-mt-3 static`} style={{height:"100%"}}>
+            <div className={`-mt-4 static`} style={{height:"100%"}}>
               <div className={`underline`}></div>
             </div>
           </div>
           {info.isDropDown
           ?<span>
-            <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-4 text-gray-500 absolute flex content-center flex-wrap`} fill="none" viewBox="3 -7 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-4 text-gray-500 absolute flex content-center flex-wrap`} fill="none" viewBox="3 -12 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-6 6-6-6" />
             </svg> 
           </span>
