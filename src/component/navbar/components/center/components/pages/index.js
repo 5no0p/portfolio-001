@@ -133,7 +133,7 @@ const ListItems = ({info}) =>{
           </div>
           {info.isDropDown
           ?<span>
-            <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-4 text-gray-500 absolute flex content-center flex-wrap`} fill="none" viewBox="3 -12 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-4 text-gray-500 absolute flex content-center flex-wrap`} fill="none" viewBox="3 -12 26 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-6 6-6-6" />
             </svg> 
           </span>
@@ -142,24 +142,29 @@ const ListItems = ({info}) =>{
         </a>
         {info.isDropDown
         ?<ul class="top-0 w-48 bg-white shadow px-6 py-8 rounded-lg .dd-menu absolute" >
-           {info.children.map(children => children.isNested
-            ?<li class="py-1 nest" key={`${info.name}_${children.data}`}><a class="font-bold text-base mb-2 cursor-pointer" style={{display:"inline-block"}}><div className="static ">
-            <div className="dd-font font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
-              {children.data}
+           {info.children.map(children =>
+            <li class="py-1 relative" key={`${info.name}_${children.data}`}>
+            <a class="font-bold text-base mb-2 cursor-pointer flex justify-between">
+            <div className="static">
+              <div className="dd-font font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
+                {children.data}
+              </div>
+              <div className={`-mt-3 static`} style={{height:"100%"}}>
+                <div className={`underline`}></div>
+              </div>
             </div>
-            <div className={`-mt-3 static`} style={{height:"100%"}}>
-              <div className={`underline`}></div>
-            </div>
-            </div></a><listBox items={children.nest}/></li>
-            
-            :<li class="py-1" key={`${info.name}_${children.data}`}><a class="font-bold text-base mb-2 cursor-pointer" style={{display:"inline-block"}}><div className="static ">
-            <div className="dd-font font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
-              {children.data}
-            </div>
-            <div className={`-mt-3 static`} style={{height:"100%"}}>
-              <div className={`underline`}></div>
-            </div>
-            </div></a></li>
+            {children.isNested
+            ?<span>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-4 text-gray-500 absolute flex content-center flex-wrap" fill="none" viewBox="0 -7 26 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            </span>
+            :""  
+            }
+            </a>{children.isNested
+            ?<listBox items={children.nest}/>
+            :""
+            }</li>
             )}
           </ul>
         :""

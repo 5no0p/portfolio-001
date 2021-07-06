@@ -42,7 +42,7 @@ li:hover > a > div > div > .underline{
   width: 100%;
 }
 
-li:hover svg{
+li:hover > a > span > svg{
   color: black;
 }
 
