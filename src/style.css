@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 body {
@@ -165,7 +167,24 @@ nav div div.contact-button {
   font-size: 50px;
 }
 
-.hero .main-hero .primery-paragraph{
-  
+.hero .main-hero p{
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  margin-bottom: 30px;
+  
+}
+
+.hero .main-hero h3 {
+
+  text-transform: capitalize;
+
+}
+
+.hero .main-hero .contacts {
+  display: flex;
+}
+
+.hero .main-hero .contacts div {
+  margin-right: 30px;
 }
