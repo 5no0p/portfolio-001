@@ -65,13 +65,13 @@ nav ul li {
  ul li ul {
   visibility: hidden;
   position: relative;
-  transition: all 1ms;
+  transition: all 0.3s ease-in-out 0.2s;
   opacity: 0;
   box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .social-icons{
-  transition: all 0.3s ease-in-out 0.2s;
+  transition: all 0.3s;
 }
 
 .social-icons:hover {
