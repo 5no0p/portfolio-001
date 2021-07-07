@@ -64,10 +64,28 @@ nav ul li {
 
  ul li ul {
   visibility: hidden;
-  position: absolute;
-  transition: all 0.3s ease-in-out 0.2s;
-  margin-top: 106px;
+  position: relative;
+  transition: all 1ms;
   opacity: 0;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-icons{
+  transition: all 0.3s ease-in-out 0.2s;
+}
+
+.social-icons:hover {
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul li ul {
+  margin-top: 106px;
+}
+
+ul li ul li ul {
+  position: relative;
+  left: 160px;
+  margin-top: -30px;
 }
 
 ul li:hover > ul {

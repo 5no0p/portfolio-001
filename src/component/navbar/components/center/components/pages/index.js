@@ -141,7 +141,7 @@ const ListItems = ({info}) =>{
           }
         </a>
         {info.isDropDown
-        ?<ul class="top-0 w-48 bg-white shadow px-6 py-8 rounded-lg .dd-menu absolute" >
+        ?<ul class="top-0 w-48 bg-white px-6 py-3 rounded-lg .dd-menu absolute" >
            {info.children.map(children =>
             <li class="py-1 relative" key={`${info.name}_${children.data}`}>
             <a class="font-bold text-base mb-2 cursor-pointer flex justify-between">
@@ -162,7 +162,7 @@ const ListItems = ({info}) =>{
             :""  
             }
             </a>{children.isNested
-            ?<listBox items={children.nest}/>
+            ?<NestItems items={children.nest}/>
             :""
             }</li>
             )}
@@ -176,12 +176,20 @@ const ListItems = ({info}) =>{
  )
 }
 
-const listBox = ({items}) => {
+const NestItems = ({items}) => {
   
   return (
     <>
-      <ul class="top-0 w-48 bg-white shadow px-6 py-8 rounded-lg .dd-menu absolute" >
-           {items.map(children => <li class="py-1" key={children}><a class="font-bold text-base mb-2 cursor-pointer">{children}</a></li>)}
+      <ul class="top-0 w-48 bg-white px-6 py-3 rounded-lg .dd-menu absolute" >
+           {items.map(children => <li class="py-1" key={children}><a class="font-bold text-base mb-2 cursor-pointer flex justify-between">
+            <div className="static">
+              <div className="dd-font font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
+                {children}
+              </div>
+              <div className={`-mt-3 static`} style={{height:"100%"}}>
+                <div className={`underline`}></div>
+              </div>
+            </div></a></li>)}
           </ul>
     </>
   )
