@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "animejs": "^3.2.1",
     "autoprefixer": "^10.0.2",
     "postcss": "^8.0.9",
     "react": "^17.0.0",

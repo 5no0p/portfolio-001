@@ -197,12 +197,15 @@ nav div div.contact-button {
 }
 
 .hero .main-hero .primery{
-  
+  display: inline-block;
+  line-height: 1em;
   font-size: 50px;
+  color: #212121;
 }
 
 .hero .main-hero .secondery{
-  
+  display: inline-block;
+  line-height: 1em;
   color: #ffc13e;
   font-size: 50px;
 }
@@ -227,4 +230,14 @@ nav div div.contact-button {
 
 .hero .main-hero .contacts div {
   margin-right: 30px;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
 }

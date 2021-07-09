@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import anime from 'animejs/lib/anime.es.js';
 
 const Hero = () => {
 
@@ -29,11 +30,47 @@ const Background = () => {
 
 const Main = () => {
 
+  useEffect(()=>{
+    const textWrapper = document.querySelector('.ml13');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({loop: true})
+      .add({
+        targets: '.ml13 .letter',
+        translateY: [0,20],
+        rotateX: [80, 0],
+        translateZ: 0,
+        opacity: [0,1],
+        easing: "easeOutExpo",
+        duration: 800,
+        delay: (el, i) => 300 + 100 * i
+  })
+  },[])
+
+  useEffect(()=>{
+    const textWrapper = document.querySelector('.ml14');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({loop: true})
+      .add({
+        targets: '.ml14 .letter',
+        translateY: [20,0],
+        rotateX: [0, 10],
+        translateZ: 0,
+        opacity: [0,1],
+        easing: "easeOutExpo",
+        duration: 800,
+        delay: (el, i) => 300 + 100 * i
+  })
+  },[])
+
+
+
   return (
     <>
       <div className="main-hero">
-        <h1 className="dd-font primery">Hi! I’m Mohammed Almustafa -</h1>
-        <h1 className="dd-font secondery">Full Stack Developer</h1>
+        <h1 className="dd-font primery ml13 mb-4">Hi! I’m Mohammed Almustafa -</h1>
+        <h1 className="dd-font secondery ml14 mt-4">Full Stack Developer</h1>
         <p className="dd-menu primery-paragraph">Front End designer and Back end Developer,<br/>specialized in CRM, Portfolio and E-commerce</p>
         <div className="grid grid-cols-2 contacts" style={{width:"300px"}}>
           <div>
