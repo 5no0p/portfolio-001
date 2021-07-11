@@ -87,9 +87,15 @@ const Main = () => {
             <p>github.com/5no0p</p>
           </div>
         </div>
-        <div className="">
-          <button className="bg-yallow-500" type="button">donwnload CV</button>
-          <button className="bg-yallow-500" type="button">hire me now</button>
+        <div className="grid grid-cols-2 flex space-x-4 mt-5 h-12 text-white font-black dd-menu" style={{width:"300px"}}>
+          <div className="relative">
+          <button className="bg-yellow-500 capitalize h-12" type="button">donwnload CV</button>
+          <svg className="absolute top-0 inset-x-0">       
+            <image href="https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60eb62a8406486731ad8a3ce_Rectangle%2024.svg"      src="yourfallback.png" style={{width:"90" ,height:"90"}}/>    
+            </svg>
+          </div>
+          
+          <button className="bg-gray-900 capitalize" type="button">hire me now</button>
         </div>
       </div>
     </>
