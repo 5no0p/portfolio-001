@@ -19,6 +19,13 @@ h1, p {
   font-family: 'Open Sans', sans-serif;
 }
 
+button h1 {
+  z-index: 50;
+}
+
+.contact div svg {
+  z-index: 10;
+}
     
 .underline {
   height:0.36rem;
