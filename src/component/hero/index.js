@@ -61,6 +61,11 @@ const Main = () => {
         easing: "easeOutExpo",
         duration: 800,
         delay: (el, i) => 300 + 100 * i
+  }).add({
+    targets:'.contacts .email',
+    opacity:[0,1],
+    translateY:[100,0],
+    duration:800,
   })
   },[])
 
@@ -71,9 +76,9 @@ const Main = () => {
       <div className="main-hero">
         <h1 className="dd-font primery ml13 mb-4">Hi! I’m Mohammed Almustafa -</h1>
         <h1 className="dd-font secondery ml14 mt-4">Full Stack Developer</h1>
-        <p className="dd-menu primery-paragraph">Front End designer and Back end Developer,<br/>specialized in CRM, Portfolio and E-commerce</p>
+        <p className="dd-menu primery-paragraph mt-5">Front End designer and Back end Developer,<br/>specialized in CRM, Portfolio and E-commerce</p>
         <div className="grid grid-cols-2 contacts" style={{width:"300px"}}>
-          <div>
+          <div className="email">
             <h3 className="dd-font">email</h3>
             <p>mmoaaa1989@hotmail.com</p>
           </div>
@@ -81,6 +86,10 @@ const Main = () => {
             <h3 className="dd-font">github</h3>
             <p>github.com/5no0p</p>
           </div>
+        </div>
+        <div className="">
+          <button className="bg-yallow-500" type="button">donwnload CV</button>
+          <button className="bg-yallow-500" type="button">hire me now</button>
         </div>
       </div>
     </>
