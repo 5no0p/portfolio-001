@@ -124,34 +124,33 @@ nav div div.contact-button {
 
 .hero-background {
   position: relative;
+  height: 100vh;
 }
 
 .home-1 {
   position: relative;
   top: -35px;
   right: -700px;
-  width: 80%;
-  height: 80%;
   z-index: 20;
 }
 
 .home-2 {
   position: relative;
-  top: -920px;
-  left: 670px;
+  top: -1030px;
+  left: 680px;
   z-index: 10;
 }
 
 .home-3 {
   position: relative;
-  top: -1220px;
+  top: -1320px;
   right: 750px;
   z-index: 10;
 }
 
 .home-4 {
   position: relative;
-  top: -2000px;
+  top: -2130px;
   right: 30px;
   width: 375px;
   height: 136px;
@@ -198,7 +197,7 @@ nav div div.contact-button {
 
 .hero .main-hero{
   position: relative;
-  top: -2050px;
+  top: -400px;
   left: 120px;
   z-index: 30;
 }
