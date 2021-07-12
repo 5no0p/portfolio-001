@@ -8,6 +8,7 @@ const Hero = () => {
       <div className="hero">
         <Background/>
         <Main/>
+        <AbourMe/>
       </div>
     </>
   
@@ -129,6 +130,25 @@ const Main = () => {
       </div>
     </>
 
+  )
+}
+
+const AbourMe = () => {
+
+  return (
+    <>
+      <div className="grid grid-cols-3 place-items-center about-me">
+      <div className="bg-red-500">
+      1
+      </div>
+      <div className="">
+      2
+      </div>
+      <div className="">
+      3
+      </div>
+      </div>
+    </>
   )
 }
 

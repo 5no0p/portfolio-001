@@ -247,3 +247,7 @@ nav div div.contact-button {
   display: inline-block;
   line-height: 1em;
 }
+
+.hero .about-me div{
+  z-index: 30;
+}
