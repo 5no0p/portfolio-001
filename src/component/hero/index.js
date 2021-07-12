@@ -137,14 +137,14 @@ const AbourMe = () => {
 
   return (
     <>
-      <div className="grid grid-cols-3 place-items-center about-me">
-      <div className="bg-red-500">
+      <div className="flex place-items-center justify-items-stretch about-me">
+      <div className="bg-red-500 justify-self-center">
       1
       </div>
-      <div className="">
+      <div className="bg-blue-500">
       2
       </div>
-      <div className="">
+      <div className="bg-green-500">
       3
       </div>
       </div>
