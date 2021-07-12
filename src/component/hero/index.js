@@ -62,13 +62,33 @@ const Main = () => {
         duration: 800,
         delay: (el, i) => 300 + 100 * i
   }).add({
-    targets:'.contacts .email',
+    targets:'.main-hero .primery-paragraph',
     opacity:[0,1],
     translateY:[100,0],
     duration:800,
-  })
+    easing: 'easeInOutSine',
+  }, '-=2000')
   },[])
 
+  useEffect(()=>{
+
+    anime.timeline({loop: false})
+    .add({
+      targets:'.contacts .github h3',
+      opacity:[0,1],
+      translateY:[100,0],
+      duration:800,
+      easing: 'easeInOutSine',
+      delay: 800
+    }).add({
+      targets:'.contacts .github p',
+      opacity:[0,1],
+      translateY:[100,0],
+      duration:800,
+      easing: 'easeInOutSine',
+      delay: 800
+    })
+  },[])
 
 
   return (
@@ -88,13 +108,8 @@ const Main = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 flex space-x-4 mt-5 h-12 text-white font-black dd-menu contact" style={{width:"300px"}}>
-          
-                  
-              <img src="https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60eb7165b63de73e198d343b_Group%202.png"/>    
-           
-         
-          
-          <button className="bg-gray-900 capitalize" type="button">hire me now</button>
+          <img src="https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60eb7165b63de73e198d343b_Group%202.png"/>
+          <img src="https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60eb71648f379b1d2d2c2ddf_Group%203.png"/>  
         </div>
       </div>
     </>
