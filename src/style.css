@@ -255,7 +255,10 @@ nav div div.contact-button {
 .hero .about-me div{
   display: flex;
   justify-content: center;
+  align-items : center;
   margin: 0 50px 0;
   width: 100%;
+  height: 80px;
+  border-radius: 10px;
   z-index: 30;
 }
