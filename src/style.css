@@ -253,6 +253,8 @@ nav div div.contact-button {
 }
 
 .hero .about-me div{
+  display: flex;
+  justify-content: center;
   margin: 0 50px 0;
   width: 100%;
   z-index: 30;

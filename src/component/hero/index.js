@@ -138,7 +138,7 @@ const AbourMe = () => {
   return (
     <>
       <div className="flex place-items-center justify-items-stretch about-me">
-      <div className="bg-red-500 justify-self-center">
+      <div className="bg-red-500">
       1
       </div>
       <div className="bg-blue-500">
