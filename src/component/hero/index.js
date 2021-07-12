@@ -34,7 +34,7 @@ const Main = () => {
     const textWrapper = document.querySelector('.ml13');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-    anime.timeline({loop: true})
+    anime.timeline({loop: false})
       .add({
         targets: '.ml13 .letter',
         translateY: [0,20],
@@ -51,11 +51,11 @@ const Main = () => {
     const textWrapper = document.querySelector('.ml14');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-    anime.timeline({loop: true})
+    anime.timeline({loop: false})
       .add({
         targets: '.ml14 .letter',
         translateY: [20,0],
-        rotateX: [0, 10],
+        rotateX: [80, 0],
         translateZ: 0,
         opacity: [0,1],
         easing: "easeOutExpo",
@@ -85,7 +85,7 @@ const Main = () => {
     translateY:[100,0],
     duration:800,
     easing: 'easeInOutSine',
-  }, '-=800').add({
+  }, '-=600').add({
     targets:'.contacts .github p',
     opacity:[0,1],
     translateY:[100,0],
@@ -95,13 +95,13 @@ const Main = () => {
     targets: '.contact .download-btn',
     opacity:[0,1],
     duration:800,
-    easing: 'easeInOutExpo'
+    easing: 'easeInSine'
   }).add({
     targets: '.contact .hire-btn',
     opacity:[0,1],
     duration:800,
-    easing: 'easeInOutExpo'
-  },'-=200')
+    easing: 'easeInSine'
+  },'-=300')
   },[])
 
 
