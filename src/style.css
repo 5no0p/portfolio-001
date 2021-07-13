@@ -249,10 +249,10 @@ nav div div.contact-button {
 }
 
 .hero .about-me {
-  margin: 0 100px 0;
+  margin: 0 100px 100px;
 }
 
-.hero .about-me div{
+.hero .about-me > div{
   display: flex;
   justify-content: center;
   align-items : center;
@@ -261,4 +261,24 @@ nav div div.contact-button {
   height: 80px;
   border-radius: 10px;
   z-index: 30;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.5s;
+  background-color: white;
+}
+.hero .about-me > div div{
+  display: flex;
+  justify-content: center;
+  align-items : center;
+}
+
+.hero .about-me > div:hover{
+  transform: translateY(-30px);
+}
+
+.hero .about-me .check-icon {
+  color: blue;
+  background-image: radial-gradient(black 90%, white 10%);;
+  border-radius: 50px;
+  
 }

@@ -1,5 +1,7 @@
 import React,{useEffect} from 'react'
 import anime from 'animejs/lib/anime.es.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import * as Icons from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => {
 
@@ -138,13 +140,15 @@ const AbourMe = () => {
   return (
     <>
       <div className="flex place-items-center about-me">
-      <div className="bg-red-500">
-      <div>1</div>
+      <div className="grid grid-cols-4 justify-items-center">
+      <div><FontAwesomeIcon icon={Icons.faCheckCircle} size="2x" className="check-icon"/></div> 
+      <div className="col-span-2 w-3/5 ">1</div>
+      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg"/></div>
       </div>
-      <div className="bg-blue-500">
+      <div className="grid grid-cols-4">
       2
       </div>
-      <div className="bg-green-500">
+      <div className="grid grid-cols-4">
       3
       </div>
       </div>
