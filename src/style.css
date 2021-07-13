@@ -276,9 +276,9 @@ nav div div.contact-button {
   transform: translateY(-30px);
 }
 
-.hero .about-me .check-icon {
+.hero .about-me svg {
   color: blue;
-  background-image: radial-gradient(black 90%, white 10%);;
+  background-color: white;
   border-radius: 50px;
   
 }

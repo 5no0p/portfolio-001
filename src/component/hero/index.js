@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import anime from 'animejs/lib/anime.es.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as Icons from '@fortawesome/free-solid-svg-icons'
+import CheckIcon from './check_circle.svg'
 
 const Hero = () => {
 
@@ -141,7 +142,9 @@ const AbourMe = () => {
     <>
       <div className="flex place-items-center about-me">
       <div className="grid grid-cols-4 justify-items-center">
-      <div><FontAwesomeIcon icon={Icons.faCheckCircle} size="2x" className="check-icon"/></div> 
+      <div>
+      <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48H0z" fill="none"/><path d="M24 4C12.95 4 4 12.95 4 24c0 11.04 8.95 20 20 20 11.04 0 20-8.96 20-20 0-11.05-8.96-20-20-20zm-4 30L10 24l2.83-2.83L20 28.34l15.17-15.17L38 16 20 34z"/></svg>  
+      </div> 
       <div className="col-span-2 w-3/5 ">1</div>
       <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg"/></div>
       </div>
