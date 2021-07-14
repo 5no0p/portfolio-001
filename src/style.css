@@ -277,14 +277,14 @@ nav div div.contact-button {
   box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.2);
 }
 .hero .about-me .check-icon1{
-  color: black; /* For browsers that do not support gradients */
+  color: black;
   
 }
 .hero .about-me .check-icon2{
   color: #FFC13E;
 }
 .hero .about-me .check-icon3{
-  color: #F2F1F1; /* For browsers that do not support gradients */
+  color: #F2F1F1;
   background-image: radial-gradient(circle, black 65%, white 10%);
 }
 
