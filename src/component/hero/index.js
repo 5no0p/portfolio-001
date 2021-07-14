@@ -142,19 +142,33 @@ const AbourMe = () => {
       <div className="flex place-items-center about-me">
       <div className="grid grid-cols-4 justify-items-center">
       <div>
-      <FontAwesomeIcon icon={Icons.faCheckCircle} size="2x" className="check-icon" pull="left"/>
+      <FontAwesomeIcon icon={Icons.faCheckCircle} size="2x" className="check-icon1" pull="left"/>
       </div> 
       <div className="col-span-2 w-3/5 flex flex-col capitalize space-y-2">
-        <div className="font-bold">designer</div>
-        <div className="text-sm">creative websit for you.</div>
+        <div className="font-bold dd-font">designer</div>
+        <div className="text-sm dd-menu">creative websit for you.</div>
       </div>
       <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" pull="right"/></div>
       </div>
-      <div className="grid grid-cols-4">
-      2
+      <div className="grid grid-cols-4 justify-items-center">
+      <div>
+      <FontAwesomeIcon icon={Icons.faCheckCircle} size="2x" className="check-icon2" pull="left"/>
+      </div> 
+      <div className="col-span-2 w-3/5 flex flex-col capitalize space-y-2">
+        <div className="font-bold dd-font">developer</div>
+        <div className="text-sm dd-menu">fast and scale website.</div>
       </div>
-      <div className="grid grid-cols-4">
-      3
+      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" pull="right"/></div>
+      </div>
+      <div className="grid grid-cols-4 justify-items-center">
+      <div>
+      <FontAwesomeIcon icon={Icons.faCheckCircle} size="2x" className="check-icon3" pull="left"/>
+      </div> 
+      <div className="col-span-2 w-3/5 flex flex-col capitalize space-y-2">
+        <div className="font-bold dd-font">freelancer</div>
+        <div className="text-sm dd-menu">you can hire me now.</div>
+      </div>
+      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" pull="right"/></div>
       </div>
       </div>
     </>
