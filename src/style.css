@@ -285,5 +285,5 @@ nav div div.contact-button {
 
 .hero .about-me .check-icon{
   background-color: red; /* For browsers that do not support gradients */
-  background-image: radial-gradient(circle, red 65%, white 10%, white);
+  background-image: radial-gradient(circle, red 65%, white 10%);
 }
