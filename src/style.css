@@ -286,3 +286,11 @@ nav div div.contact-button {
   color: gainsboro; /* For browsers that do not support gradients */
   background-image: radial-gradient(circle, black 65%, white 10%);
 }
+
+.hero .about-me .arow-icon{
+  color: #616161;
+}
+
+.hero .about-me > div:hover .arow-icon{
+  color: #212121;
+}
