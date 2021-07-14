@@ -148,7 +148,7 @@ const AbourMe = () => {
         <div className="font-bold dd-font">designer</div>
         <div className="text-sm dd-menu">creative websit for you.</div>
       </div>
-      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" className="arow-icon" pull="right"/></div>
+      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" className="arow-icon arow" pull="right"/></div>
       </div>
       <div className="grid grid-cols-4 justify-items-center">
       <div>
@@ -158,7 +158,7 @@ const AbourMe = () => {
         <div className="font-bold dd-font">developer</div>
         <div className="text-sm dd-menu">fast and scale website.</div>
       </div>
-      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" className="arow-icon" pull="right"/></div>
+      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" className="arow-icon2 arow" pull="right"/></div>
       </div>
       <div className="grid grid-cols-4 justify-items-center">
       <div>
@@ -168,7 +168,7 @@ const AbourMe = () => {
         <div className="font-bold dd-font">freelancer</div>
         <div className="text-sm dd-menu">you can hire me now.</div>
       </div>
-      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" className="arow-icon" pull="right"/></div>
+      <div><FontAwesomeIcon icon={Icons.faAngleRight} size="lg" className="arow-icon arow" pull="right"/></div>
       </div>
       </div>
     </>
