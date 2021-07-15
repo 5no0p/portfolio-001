@@ -299,3 +299,29 @@ nav div div.contact-button {
 .hero .about-me > div:hover .arow-icon2{
   color: #FFC13E;
 }
+
+.about .about-content div{
+  position: relative;
+}
+
+.about .about-content h5 {
+  position: absolute;
+  top: 80px;
+  /* Border is the new background */
+  background: none;
+  color: #adadad;
+  white-space: nowrap;
+  
+  /* Rotate from top left corner (not default) */
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+}
+
+.about .about-content .vl{
+  border-left: 1px solid #adadad;
+  height: 50px;
+  position: absolute;
+  left: 30%;
+  margin-left: -3px;
+  top: 15%;
+}

@@ -5,7 +5,7 @@ const About = () => {
 
   return (
     <>
-    <div className="grid grid-cols-2">
+    <div className="about grid grid-cols-2">
     <Image/>
     <Content/>
     </div>
@@ -28,9 +28,14 @@ const Content = () => {
 
   return (
     <>
-      <div className="bg-blue-500 grid grid-cols-12 flex">
-        <div className="col-span-1 bg-red-500 w-1/5"></div>
-        <div className="bg-gray-300 col-span-11 flex-grow"></div>
+      <div className="about-content bg-blue-500 grid grid-cols-12 flex">
+        <div className="col-span-1 bg-red-500">
+          <h5 className="dd-fon">about me</h5>
+          <div className="vl"></div>
+        </div>
+        <div className="bg-gray-300 col-span-11 flex-grow">
+
+        </div>
       </div>
     </>
   )
