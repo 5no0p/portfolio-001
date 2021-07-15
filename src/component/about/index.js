@@ -1,5 +1,5 @@
 import React from 'react' 
-
+import { SocialIcon } from 'react-social-icons';
 
 const About = () => {
 
@@ -28,13 +28,35 @@ const Content = () => {
 
   return (
     <>
-      <div className="about-content bg-blue-500 grid grid-cols-12 flex">
-        <div className="col-span-1 bg-red-500">
+      <div className="about-content grid grid-cols-12 flex" style={{marginLeft: "1.75rem",marginRight: "8rem"}}>
+        <div className="col-span-1">
           <h5 className="dd-fon">about me</h5>
           <div className="vl"></div>
         </div>
-        <div className="bg-gray-300 col-span-11 flex-grow">
-
+        <div className="col-span-11">
+          <div className="font-bold" style={{fontSize:"2.75rem"}}>
+            Need Creative Design? I can Help You!
+          </div>
+          <div className="my-3">
+            <p>Product Designer and Digital Creative Director working in design field for 13 years so far, specialized in UI/UX, Branding and digital designs. These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful. beautifully, too.</p>
+          </div>
+          <div className="font-bold my-4">
+          You Can Follow Me also Here:
+          </div>
+          <div className="flex space-x-5 my-5 about-social">
+            <a href="#" className="flex space-x-4">
+            <SocialIcon network="youtube" fgColor="#ffffff" bgColor="#ff3333"/>
+            <h1 className="uppercase font-bold flex items-center" style={{color:"#ff3333"}}>youtube</h1>
+            </a>
+            <a href="#" className="flex space-x-4">
+            <SocialIcon network="github" fgColor="#ffffff" bgColor="#24292e"/>
+            <h1 className="uppercase font-bold flex items-center" style={{color:"#24292e"}}>github</h1>
+            </a>
+            <a href="#" className="flex space-x-4">
+            <SocialIcon network="instagram" fgColor="#ffffff" bgColor="#e94475"/>
+            <h1 className="uppercase font-bold flex items-center" style={{color:"#e94475"}}>insta</h1>
+            </a>
+          </div>
         </div>
       </div>
     </>
