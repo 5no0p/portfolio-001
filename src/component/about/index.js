@@ -28,8 +28,9 @@ const Content = () => {
 
   return (
     <>
-      <div className="bg-blue-500 grid grid-cols-6">
-        <div className="col-span-1 bg-red-500"></div>
+      <div className="bg-blue-500 grid grid-cols-12 flex">
+        <div className="col-span-1 bg-red-500 w-1/5"></div>
+        <div className="bg-gray-300 col-span-11 flex-grow"></div>
       </div>
     </>
   )
