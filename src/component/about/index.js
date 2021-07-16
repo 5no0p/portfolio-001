@@ -44,15 +44,15 @@ const Content = () => {
           You Can Follow Me also Here:
           </div>
           <div className="flex space-x-5 my-5 about-social">
-            <a href="#" className="flex space-x-4">
+            <a href="#" className="flex space-x-4 youtube-link">
             <SocialIcon network="youtube" fgColor="#ffffff" bgColor="#ff3333"/>
             <h1 className="uppercase font-bold flex items-center" style={{color:"#ff3333"}}>youtube</h1>
             </a>
-            <a href="#" className="flex space-x-4">
+            <a href="#" className="flex space-x-4 github-link">
             <SocialIcon network="github" fgColor="#ffffff" bgColor="#24292e"/>
             <h1 className="uppercase font-bold flex items-center" style={{color:"#24292e"}}>github</h1>
             </a>
-            <a href="#" className="flex space-x-4">
+            <a href="#" className="flex space-x-4 instagram-link">
             <SocialIcon network="instagram" fgColor="#ffffff" bgColor="#FFC13E"/>
             <h1 className="uppercase font-bold flex items-center" style={{color:"#FFC13E"}}>insta</h1>
             </a>
