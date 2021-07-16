@@ -348,3 +348,9 @@ nav div div.contact-button {
   font-family: 'IBM Plex Mono', monospace;
   line-height: 30px;
 }
+
+.about .about-content .about-social h1{
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.875;
+}
