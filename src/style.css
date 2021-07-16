@@ -354,3 +354,13 @@ nav div div.contact-button {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.875;
 }
+
+.skills {
+  margin: 0 100px 0;
+  height: 100vh;
+}
+
+.skills > div {
+  display: flex;
+  justify-content: center;
+}
