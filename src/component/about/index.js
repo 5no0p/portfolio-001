@@ -45,7 +45,7 @@ const Content = () => {
           </div>
           <div className="flex space-x-5 my-5 about-social">
             <a href="#" className="flex space-x-4 youtube-link">
-            <SocialIcon network="youtube" fgColor="#ffffff" bgColor="#ff3333"/>
+            <SocialIcon network="youtube"/>
             <h1 className="uppercase font-bold flex items-center" style={{color:"#ff3333"}}>youtube</h1>
             </a>
             <a href="#" className="flex space-x-4 github-link">
