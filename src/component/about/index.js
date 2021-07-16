@@ -34,13 +34,13 @@ const Content = () => {
           <div className="vl"></div>
         </div>
         <div className="col-span-11">
-          <div className="font-bold" style={{fontSize:"2.75rem"}}>
-            Need Creative Design? I can Help You!
+          <div className="about-header">
+            <span>Need Creative Design? I can Help You!</span>
           </div>
-          <div className="my-3">
+          <div className="my-3 about-paragraph">
             <p>Product Designer and Digital Creative Director working in design field for 13 years so far, specialized in UI/UX, Branding and digital designs. These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful. beautifully, too.</p>
           </div>
-          <div className="font-bold my-4">
+          <div className="font-bold my-4 about-follow">
           You Can Follow Me also Here:
           </div>
           <div className="flex space-x-5 my-5 about-social">
@@ -53,8 +53,8 @@ const Content = () => {
             <h1 className="uppercase font-bold flex items-center" style={{color:"#24292e"}}>github</h1>
             </a>
             <a href="#" className="flex space-x-4">
-            <SocialIcon network="instagram" fgColor="#ffffff" bgColor="#e94475"/>
-            <h1 className="uppercase font-bold flex items-center" style={{color:"#e94475"}}>insta</h1>
+            <SocialIcon network="instagram" fgColor="#ffffff" bgColor="#FFC13E"/>
+            <h1 className="uppercase font-bold flex items-center" style={{color:"#FFC13E"}}>insta</h1>
             </a>
           </div>
         </div>
