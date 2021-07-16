@@ -4,6 +4,7 @@ import "tailwindcss/tailwind.css"
 import Nav from "./component/navbar"
 import Hero from "./component/hero"
 import About from "./component/about"
+import Skills from "./component/skills"
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
     <Nav/>
     <Hero/>
     <About/>
+    <Skills/>
     </>
   );
 }
