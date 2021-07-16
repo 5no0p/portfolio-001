@@ -300,11 +300,11 @@ nav div div.contact-button {
   color: #FFC13E;
 }
 
-.about .about-content div{
+.section-content div{
   position: relative;
 }
 
-.about .about-content h5 {
+.vhead {
   position: absolute;
   top: 80px;
   /* Border is the new background */
@@ -317,7 +317,7 @@ nav div div.contact-button {
   transform: rotate(270deg);
 }
 
-.about .about-content .vl{
+.vl{
   border-left: 1px solid #adadad;
   height: 50px;
   position: absolute;
@@ -334,7 +334,7 @@ nav div div.contact-button {
   font-family: 'IBM Plex Mono', monospace;
 }
 
-.about .about-content .about-paragraph p {
+.section-paragraph p {
   color: #616161;
   font-size: 16px;
   font-weight: 400;
@@ -356,7 +356,7 @@ nav div div.contact-button {
 }
 
 .skills {
-  margin: 0 100px 0;
+  margin: 50px 100px 0;
   height: 100vh;
 }
 

@@ -28,16 +28,16 @@ const Content = () => {
 
   return (
     <>
-      <div className="about-content grid grid-cols-12 flex" style={{marginLeft: "1.75rem",marginRight: "8rem"}}>
+      <div className="section-content grid grid-cols-12 flex" style={{marginLeft: "1.75rem",marginRight: "8rem"}}>
         <div className="col-span-1">
-          <h5 className="dd-fon">about me</h5>
+          <h5 className="vhead">about me</h5>
           <div className="vl"></div>
         </div>
         <div className="col-span-11">
-          <div className="about-header">
+          <div className="section-header">
             <span>Need Creative Design? I can Help You!</span>
           </div>
-          <div className="my-3 about-paragraph">
+          <div className="my-3 section-paragraph">
             <p>Product Designer and Digital Creative Director working in design field for 13 years so far, specialized in UI/UX, Branding and digital designs. These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful. beautifully, too.</p>
           </div>
           <div className="font-bold my-4 about-follow">
