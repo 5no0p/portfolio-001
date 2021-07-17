@@ -371,3 +371,32 @@ nav div div.contact-button {
   font-weight: 700;
   font-family: 'Open Sans', sans-serif;
 }
+
+.skills .my-skills .sk-infobox-warp {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 11px 10px 38px 0px rgb(0 0 0 / 10%);
+  transition: 0.4s;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616161;
+  position: relative;
+  vertical-align: baseline;
+  width: 272.5px;
+}
+
+.skills .my-skills .sk-infobox-warp:hover .content-warp .sk-infobox-content{
+  font-size: 14;
+  color: #c6c6c6;
+}
+
+.skills .my-skills .sk-infobox-warp .icon-warp .sk-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.skills .my-skills .sk-infobox-warp .icon-warp {
+  margin: 3px 0 30px;
+}
