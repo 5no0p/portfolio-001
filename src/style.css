@@ -389,32 +389,46 @@ nav div div.contact-button {
   overflow: hidden;
 }
 
+.skills .my-skills .sk-layout .sk-infobox-warp{
+  position: relative;
+  transition: all 0.4s;
+  top: 0;
+}
+
 .skills .my-skills .sk-infobox-warp .content-warp .sk-infobox-content{
   color: #ffffff;
   transition: all 0.4s;
 }
 
-.skills .my-skills .sk-infobox-warp:hover .content-warp .sk-infobox-content{
-  font-size: 14;
+.skills .my-skills .sk-layout:hover .content-warp h3{
+  color: #ffffff;
+}
+
+.skills .my-skills .sk-infl.sk-layout:hover .content-warp p{
   color: #c6c6c6;
 }
 
-.skills .my-skills .sk-layout .sk-infobox-warp{
-  position: relative;
-  transition: all 0.4s;
-  
-  top: 0;
-}
+
 
 .skills .my-skills .sk-layout:hover .sk-infobox-warp{
-  top: -100px;
-  background-image: url(http://nimbus.wgl-demo.net/wp-content/uploads/2020/02/icon-box.jpg);
+  top: -140px;
+  
 }
 
-.skills .my-skills .sk-infobox-warp .icon-warp .sk-icon {
+.skills .my-skills .sk-layout:hover{
+  background-image: url(http://nimbus.wgl-demo.net/wp-content/uploads/2020/02/icon-box.jpg);
+
+}
+
+.skills .my-skills .sk-layout .icon-warp .sk-icon {
   display: flex;
   justify-content: center;
-  
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+.skills .my-skills .sk-layout:hover .icon-warp .sk-icon{
+  opacity: 0;
 }
 
 .skills .my-skills .sk-infobox-warp .icon-warp {
