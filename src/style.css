@@ -390,10 +390,15 @@ nav div div.contact-button {
   overflow: hidden;
 }
 
-/* .skills .my-skills .sk-infobox-warp:hover .content-warp .sk-infobox-content{
+.skills .my-skills .sk-infobox-warp .content-warp .sk-infobox-content{
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+.skills .my-skills .sk-infobox-warp:hover .content-warp .sk-infobox-content{
   font-size: 14;
   color: #c6c6c6;
-} */
+}
 
 .skills .my-skills .sk-layout .sk-infobox-warp{
   position: relative;
@@ -413,5 +418,14 @@ nav div div.contact-button {
 
 .skills .my-skills .sk-infobox-warp .icon-warp {
   margin-bottom: 30px;
+
+}
+
+.skills .my-skills .content-warp h3{
+  text-transform: capitalize;
+  color: #232323;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: 'IBM Plex Mono', monospace;
 
 }

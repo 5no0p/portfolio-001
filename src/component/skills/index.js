@@ -88,7 +88,7 @@ const Skill = () => {
           </div>
           <div className="content-warp">
             <div className="sk-infobox-title-warp">
-              <h3 className="sk-infobox-title">UX/UI</h3>
+              <h3 className="sk-infobox-title">modern design</h3>
             </div>
             <div className="sk-infobox-content">
               <p>We believe direct collaboration with our clients is essential to bringing unique</p>
