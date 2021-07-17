@@ -374,7 +374,6 @@ nav div div.contact-button {
 
 .skills .my-skills .sk-layout {
   border-radius: 10px;
-  background-color: #ffffff;
   box-shadow: 11px 10px 38px 0px rgb(0 0 0 / 10%);
   transition: all 0.4s;
   text-align: center;
@@ -403,11 +402,13 @@ nav div div.contact-button {
 .skills .my-skills .sk-layout .sk-infobox-warp{
   position: relative;
   transition: all 0.4s;
+  
   top: 0;
 }
 
 .skills .my-skills .sk-layout:hover .sk-infobox-warp{
   top: -100px;
+  background-image: url(http://nimbus.wgl-demo.net/wp-content/uploads/2020/02/icon-box.jpg);
 }
 
 .skills .my-skills .sk-infobox-warp .icon-warp .sk-icon {
