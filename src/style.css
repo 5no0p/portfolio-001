@@ -372,11 +372,11 @@ nav div div.contact-button {
   font-family: 'Open Sans', sans-serif;
 }
 
-.skills .my-skills .sk-infobox-warp {
+.skills .my-skills .sk-layout {
   border-radius: 10px;
   background-color: #ffffff;
   box-shadow: 11px 10px 38px 0px rgb(0 0 0 / 10%);
-  transition: 0.4s;
+  transition: all 0.4s;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -385,18 +385,33 @@ nav div div.contact-button {
   position: relative;
   vertical-align: baseline;
   width: 272.5px;
+  height: 241px;
+  padding: 30px 30px 30px;
+  overflow: hidden;
 }
 
-.skills .my-skills .sk-infobox-warp:hover .content-warp .sk-infobox-content{
+/* .skills .my-skills .sk-infobox-warp:hover .content-warp .sk-infobox-content{
   font-size: 14;
   color: #c6c6c6;
+} */
+
+.skills .my-skills .sk-layout .sk-infobox-warp{
+  position: relative;
+  transition: all 0.4s;
+  top: 0;
+}
+
+.skills .my-skills .sk-layout:hover .sk-infobox-warp{
+  top: -100px;
 }
 
 .skills .my-skills .sk-infobox-warp .icon-warp .sk-icon {
   display: flex;
   justify-content: center;
+  
 }
 
 .skills .my-skills .sk-infobox-warp .icon-warp {
-  margin: 3px 0 30px;
+  margin-bottom: 30px;
+
 }
