@@ -28,7 +28,7 @@ const Content = () => {
 
   return (
     <>
-      <div className="section-content grid grid-cols-12 flex" style={{marginLeft: "1.75rem",marginRight: "8rem"}}>
+       <div className="section-content grid grid-cols-12 flex" style={{marginLeft: "1.75rem",marginRight: "8rem"}}>
         <div className="col-span-1">
           <h5 className="vhead">about me</h5>
           <div className="vl"></div>

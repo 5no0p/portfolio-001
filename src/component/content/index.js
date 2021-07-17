@@ -1,4 +1,6 @@
-
+import React from 'react'
+import { SocialIcon } from 'react-social-icons';
+import ReactHtmlParser,{ processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser'
 
 const Content = ({content}) => {
 
@@ -16,7 +18,7 @@ const Content = ({content}) => {
           <div className="my-3 section-paragraph">
             <p>{content.paragraph}</p>
           </div>
-          {content.special}
+          {ReactHtmlParser(content.special)}
         </div>
       </div>
     </>

@@ -326,7 +326,7 @@ nav div div.contact-button {
   top: 15%;
 }
 
-.about .about-content .about-header span {
+.section-header span {
   font-size: 36px;
   color: #212121;
   font-weight: 700;
@@ -342,14 +342,14 @@ nav div div.contact-button {
   line-height: 30px;
 }
 
-.about .about-content .about-follow {
+.section-content .about-follow {
   color: #212121;
   font-size: 18px;
   font-family: 'IBM Plex Mono', monospace;
   line-height: 30px;
 }
 
-.about .about-content .about-social h1{
+.section-content .about-social h1{
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.875;
