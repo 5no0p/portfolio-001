@@ -71,18 +71,40 @@ const Skill = () => {
     content: "We believe direct collaboration with our clients is essential to bringing unique"
   }
 
+  const infoBoxBottenLeft = {
+    iconUrl: "https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60f47b23d565b666d0df4069_Group%2020.svg",
+    title: "fast and scall",
+    content: "We believe direct collaboration with our clients is essential to bringing unique"
+  }
+  const infoBoxTopRight = {
+    iconUrl: "https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60f47b235accac48a6f8e2a9_Group%2017.svg",
+    title: "responsive design",
+    content: "We believe direct collaboration with our clients is essential to bringing unique"
+  }
+  const infoBoxBottenRight = {
+    iconUrl: "https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60f47b23d5febb154af16602_Group%2016.svg",
+    title: "Ready to Upload",
+    content: "We believe direct collaboration with our clients is essential to bringing unique"
+  }
+
   return (
     <>
-    <div className="my-skills grid grid-cols-2">
+    <div className="my-skills">
       <div className="sk-left-layout">
         <div className="sk-layout">
           <InfoBox component={infoBoxTopLeft}/>
         </div>
-        <div className=""></div>
+        <div className="sk-layout">
+          <InfoBox component={infoBoxBottenLeft} />
+        </div>
       </div>
-      <div className="">
-      <div className=""></div>
-      <div className=""></div>
+      <div className="sk-right-layout">
+      <div className="sk-layout">
+      <InfoBox component={infoBoxTopRight} />
+      </div>
+      <div className="sk-layout">
+      <InfoBox component={infoBoxBottenRight} />
+      </div>
       </div>
     </div>
 

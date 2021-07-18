@@ -387,6 +387,7 @@ nav div div.contact-button {
   height: 241px;
   padding: 30px 30px 30px;
   overflow: hidden;
+  margin: 30px 0 0 30px;
 }
 
 .skills .my-skills .sk-layout .sk-background-layout{
@@ -452,5 +453,14 @@ nav div div.contact-button {
   font-size: 21px;
   font-weight: 700;
   font-family: 'IBM Plex Mono', monospace;
+}
 
+.skills .my-skills{
+  position: relative;
+  margin-left: 30px;
+}
+
+.skills .my-skills .sk-left-layout{
+  position: relative;
+  top: -30px;
 }
