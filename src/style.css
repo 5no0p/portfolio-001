@@ -389,6 +389,17 @@ nav div div.contact-button {
   overflow: hidden;
 }
 
+.skills .my-skills .sk-layout .sk-background-layout{
+  position: absolute;
+  background-image: url(http://nimbus.wgl-demo.net/wp-content/uploads/2020/02/icon-box.jpg);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.4s;
+}
+
 .skills .my-skills .sk-layout .sk-infobox-warp{
   position: relative;
   transition: all 0.4s;
@@ -415,9 +426,8 @@ nav div div.contact-button {
   
 }
 
-.skills .my-skills .sk-layout:hover{
-  background-image: url(http://nimbus.wgl-demo.net/wp-content/uploads/2020/02/icon-box.jpg);
-
+.skills .my-skills .sk-layout:hover .sk-background-layout{
+ opacity: 1;
 }
 
 .skills .my-skills .sk-layout .icon-warp .sk-icon {

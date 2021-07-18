@@ -70,7 +70,9 @@ const Skill = () => {
     <div className="my-skills grid grid-cols-2">
       <div className="sk-left-layout">
         <div className="sk-layout">
+        <div className="sk-background-layout"></div>
         <div className="sk-infobox-warp sk-top-layout">
+          
           <div className="icon-warp">
             <span className="sk-icon">
             <svg width="121" height="120" viewBox="0 0 121 120" fill="none" xmlns="http://www.w3.org/2000/svg">
