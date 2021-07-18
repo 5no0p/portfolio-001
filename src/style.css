@@ -300,6 +300,10 @@ nav div div.contact-button {
   color: #FFC13E;
 }
 
+.about .section-content{
+ margin-top: 60px;
+}
+
 .section-content div{
   position: relative;
 }
