@@ -363,6 +363,9 @@ nav div div.contact-button {
   margin: 50px 100px 0;
   height: 100vh;
 }
+.skills .section-content{
+  margin-top: 60px;
+}
 
 .skills > div {
   display: flex;
@@ -374,6 +377,7 @@ nav div div.contact-button {
   font-size: 13px;
   font-weight: 700;
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
 }
 
 .skills .my-skills .sk-layout {
@@ -389,7 +393,8 @@ nav div div.contact-button {
   vertical-align: baseline;
   width: 272.5px;
   height: 241px;
-  padding: 30px 30px 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   overflow: hidden;
   margin: 30px 0 0 30px;
 }
