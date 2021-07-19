@@ -35,7 +35,7 @@ const Content = () => {
             <div className="relative my-4">
               <div className="my-2 flex justify-between">
               <h3 className="uppercase">javascript</h3>
-              <h3 className="uppercase">80%</h3>
+              <h3 className="uppercase flex justify-end">80%</h3>
               </div>
               <div style={{backgroundColor:"#ffae00",height:"10px",width:"80%",zIndex:"20"}}></div>
               <div style={{borderTop: "1px solid #adadad",height:"1px",position:"relative",top:"-5px",zIndex:"10"}}></div>
@@ -43,7 +43,7 @@ const Content = () => {
             <div className="relative my-4">
               <div className="my-2 flex justify-between">
               <h3 className="uppercase">Python</h3>
-              <h3 className="uppercase">90%</h3>
+              <h3 className="uppercase flex justify-end">90%</h3>
               </div>
               <div style={{backgroundColor:"#ffae00",height:"10px",width:"90%",zIndex:"20"}}></div>
               <div style={{borderTop: "1px solid #adadad",height:"1px",position:"relative",top:"-5px",zIndex:"10"}}></div>
@@ -51,7 +51,7 @@ const Content = () => {
             <div className="relative my-4">
               <div className="my-2 flex justify-between">
               <h3 className="uppercase">figma</h3>
-              <h3 className="uppercase">75%</h3>
+              <h3 className="uppercase flex justify-end">75%</h3>
               </div>
               <div style={{backgroundColor:"#ffae00",height:"10px",width:"75%",zIndex:"20"}}></div>
               <div style={{borderTop: "1px solid #adadad",height:"1px",position:"relative",top:"-5px",zIndex:"10"}}></div>
