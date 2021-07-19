@@ -1,7 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import { useInView } from 'react-intersection-observer'
+import anime from 'animejs/lib/anime.es.js';
+
 
 
 const Skills = () => {
+  
   
   return (
     <>
@@ -16,10 +20,52 @@ const Skills = () => {
 
 const Content = () => {
 
+  const { ref, inView, entry } = useInView({
+    /* Optional options */
+    threshold: 0,
+  })
+
+  useEffect(()=>{
+    inView
+    ? anime({
+        targets: '#javascript-skills-bar',
+        width: '80%',
+        duration: 1750,
+        easing:'easeOutQuart',
+        loop: false
+      })
+    :"" 
+  })
+
+  useEffect(()=>{
+    inView
+    ? anime({
+        targets: '#Python-skills-bar',
+        width: '90%',
+        duration: 1750,
+        easing:'easeOutQuart',
+        loop: false
+      })
+    :"" 
+  })
+
+  useEffect(()=>{
+    inView
+    ? anime({
+        targets: '#figma-skills-bar',
+        width: '75%',
+        duration: 1750,
+        easing:'easeOutQuart',
+        loop: false
+      })
+    :"" 
+  })
+  
+
   return (
 
     <>
-      <div className="section-content skills-content grid grid-cols-12 flex mx-4">
+      <div className="section-content skills-content grid grid-cols-12 flex mx-4" ref={ref}>
         <div className="col-span-1">
           <h5 className="vhead">my skills</h5>
           <div className="vl" style={{left:"17%"}}></div>
@@ -37,7 +83,7 @@ const Content = () => {
               <h3 className="uppercase">javascript</h3>
               <h3 className="uppercase flex justify-end">80%</h3>
               </div>
-              <div style={{backgroundColor:"#ffae00",height:"10px",width:"80%",zIndex:"20"}}></div>
+              <div className="skills-bar" id="javascript-skills-bar" style={{backgroundColor:"#ffae00",height:"10px",width:"0%",zIndex:"20"}}></div>
               <div style={{borderTop: "1px solid #adadad",height:"1px",position:"relative",top:"-5px",zIndex:"10"}}></div>
             </div>
             <div className="relative my-4">
@@ -45,7 +91,7 @@ const Content = () => {
               <h3 className="uppercase">Python</h3>
               <h3 className="uppercase flex justify-end">90%</h3>
               </div>
-              <div style={{backgroundColor:"#ffae00",height:"10px",width:"90%",zIndex:"20"}}></div>
+              <div className="skills-bar" id="Python-skills-bar" style={{backgroundColor:"#ffae00",height:"10px",width:"0%",zIndex:"20"}}></div>
               <div style={{borderTop: "1px solid #adadad",height:"1px",position:"relative",top:"-5px",zIndex:"10"}}></div>
             </div>
             <div className="relative my-4">
@@ -53,7 +99,7 @@ const Content = () => {
               <h3 className="uppercase">figma</h3>
               <h3 className="uppercase flex justify-end">75%</h3>
               </div>
-              <div style={{backgroundColor:"#ffae00",height:"10px",width:"75%",zIndex:"20"}}></div>
+              <div className="skills-bar" id="figma-skills-bar" style={{backgroundColor:"#ffae00",height:"10px",width:"0%",zIndex:"20"}}></div>
               <div style={{borderTop: "1px solid #adadad",height:"1px",position:"relative",top:"-5px",zIndex:"10"}}></div>
             </div>
           </div>
