@@ -553,6 +553,7 @@ font-weight: 600;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   position: relative;
+  font-weight: 700;
 }
 
 .projects .wg-pj-content .wg-pj-button .pj-button::before {
