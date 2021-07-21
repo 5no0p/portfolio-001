@@ -540,16 +540,15 @@ font-weight: 600;
   color: hsl(0, 0%, 100%);
   background-color: hsl(41,100%,50%);
   padding: 21.5px 29px 21.5px 29px;
-  border-radius: 8px;
+  border-radius: 5px;
   position: relative;
   height: 100%;
   overflow: hidden;
-  transform-style: preserve-3d;
+  width: 100%;
 }
 
 .pj-button-title{
   width: 100%;
-  transform: translateZ(2px);
   text-transform: capitalize;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -570,8 +569,6 @@ font-weight: 600;
   animation-play-state: paused;
   transition: 0.4;
   box-sizing: border-box;
-  transform: translateZ(-1px);
-
 }
 
 .projects .wg-pj-content .wg-pj-button .pj-button:hover::before{
