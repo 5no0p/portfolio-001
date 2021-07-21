@@ -26,7 +26,7 @@ button h1 {
 .contact div svg {
   z-index: 10;
 }
-    
+
 .underline {
   height:0.36rem;
   width:0%;
@@ -221,7 +221,7 @@ nav div div.contact-button {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin-bottom: 30px;
-  
+
 }
 
 .hero .main-hero h3 {
@@ -278,7 +278,7 @@ nav div div.contact-button {
 }
 .hero .about-me .check-icon1{
   color: black;
-  
+
 }
 .hero .about-me .check-icon2{
   color: #FFC13E;
@@ -315,7 +315,7 @@ nav div div.contact-button {
   background: none;
   color: #adadad;
   white-space: nowrap;
-  
+
   /* Rotate from top left corner (not default) */
   transform-origin: 0 0;
   transform: rotate(270deg);
@@ -326,7 +326,7 @@ nav div div.contact-button {
   border-left: 1px solid #adadad;
   height: 50px;
   position: relative;
-  
+
   top: 10%;
 }
 
@@ -433,7 +433,7 @@ nav div div.contact-button {
 
 .skills .my-skills .sk-layout:hover .sk-infobox-warp{
   top: -140px;
-  
+
 }
 
 .skills .my-skills .sk-layout:hover .sk-background-layout{
@@ -472,4 +472,38 @@ nav div div.contact-button {
 .skills .my-skills .sk-left-layout{
   position: relative;
   top: -30px;
+}
+
+.skills .sk-info {
+  border-radius: 8px;
+  height: 33vh;
+  background-color: hsl(0,0%,13%);
+  position: relative;
+  overflow: hidden;
+}
+
+.skills .sk-info .sk-content-layout{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.skills .sk-info .sk-background-layout{
+  position: absolute;
+  width: 100%;
+}
+
+.skills .sk-info .sk-background-layout span {
+  position: absolute;
+  top: 0;
+}
+
+.skills .sk-info .sk-background-layout .right {
+  right: 0;
+}
+
+.skills .sk-info .sk-background-layout .left {
+  left: 0;
 }

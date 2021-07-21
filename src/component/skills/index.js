@@ -142,7 +142,22 @@ const Skill = () => {
       </div>
       </div>
     </div>
-
+    <div className="col-span-2 sk-info">
+      <div className="sk-background-layout">
+        <span className="right">
+          <img src="https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60f8567e843b0196e05c06e0_Vector%201.svg"/>
+        </span>
+        <span className="left">
+          <img src="https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60f8567ebcb3979c13592c23_Vector%202.svg"/>
+        </span>
+      </div>
+      <div className="sk-content-layout">
+        <div className="">1</div>
+        <div className="">2</div>
+        <div className="">3</div>
+        <div className="">4</div>
+      </div>
+    </div>
     </>
   )
 }
