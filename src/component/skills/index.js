@@ -27,39 +27,28 @@ const Content = () => {
 
   useEffect(()=>{
     inView
-    ? anime({
+    ? (anime({
         targets: '#javascript-skills-bar',
         width: '80%',
         duration: 1750,
         easing:'easeOutQuart',
         loop: false
-      })
-    :"" 
-  })
-
-  useEffect(()=>{
-    inView
-    ? anime({
+      }),anime({
         targets: '#Python-skills-bar',
         width: '90%',
         duration: 1750,
         easing:'easeOutQuart',
         loop: false
-      })
-    :"" 
-  })
-
-  useEffect(()=>{
-    inView
-    ? anime({
+      }),anime({
         targets: '#figma-skills-bar',
         width: '75%',
         duration: 1750,
         easing:'easeOutQuart',
         loop: false
-      })
+      }))
     :"" 
   })
+
   
 
   return (
