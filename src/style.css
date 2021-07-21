@@ -325,9 +325,7 @@ nav div div.contact-button {
 .vl{
   border-left: 1px solid #adadad;
   height: 50px;
-  position: relative;
-
-  top: 10%;
+  position: absolute;
 }
 
 .section-header span {
@@ -360,8 +358,8 @@ nav div div.contact-button {
 }
 
 .skills {
-  margin: 50px 100px 0;
-  height: 100vh;
+  margin: 50px 100px 0px;
+  height: 100%;
 }
 .skills .section-content{
   margin-top: 60px;
@@ -526,4 +524,84 @@ nav div div.contact-button {
   font-family: 'Open Sans', sans-serif;
 font-size: 16px;
 font-weight: 600;
+}
+
+.projects {
+  position: relative;
+  margin: 50px 100px 0;
+  height: 100%;
+}
+
+.projects .wg-pj-content .wg-pj-side-title{
+  position: relative;
+}
+
+.projects .wg-pj-content .wg-pj-button .pj-button{
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(41,100%,50%);
+  padding: 21.5px 29px 21.5px 29px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+.pj-button-title{
+  width: 100%;
+  z-index: 20;
+}
+
+.projects .wg-pj-content .wg-pj-button .pj-button::before {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 4%;
+  bottom: 15%;
+  left: 0;
+  background-color: rgb(143, 98, 0);;
+  filter: brightness(0.9);
+  border-radius: 30% 70% 72% 28% / 0% 0% 100% 100%;
+  animation: btn_morph 3s linear infinite forwards;
+  animation-play-state: paused;
+  transition: 0.4s;
+  z-index: 10;
+}
+
+.projects .wg-pj-content .wg-pj-button .pj-button-before:hover{
+  animation-play-state: running;
+}
+
+@keyframes btn_morph {
+  0%, 100% {
+      border-radius: 30% 70% 72% 28% / 0% 0% 100% 100%;
+      top: 0;
+      right: 4%;
+      bottom: 15%;
+      left: 0;
+  }
+
+  25% {
+      border-radius: 100% 0% 0% 100% / 53% 43% 57% 47%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 20%;
+  }
+
+  50% {
+      border-radius: 76% 24% 40% 60% / 100% 100% 0% 0%;
+      top: 15%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+  }
+
+  75% {
+      border-radius: 0% 100% 100% 0% / 47% 73% 27% 53%;
+      top: 0;
+      right: 20%;
+      bottom: 0;
+      left: 0;
+  }
 }

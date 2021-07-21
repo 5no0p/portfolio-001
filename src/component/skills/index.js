@@ -57,7 +57,7 @@ const Content = () => {
       <div className="section-content skills-content grid grid-cols-12 flex mx-4" ref={ref}>
         <div className="col-span-1">
           <h5 className="vhead">my skills</h5>
-          <div className="vl" style={{left:"17%"}}></div>
+          <div className="vl" style={{left:"17%",top:"15%"}}></div>
         </div>
         <div className="col-span-11">
           <div className="section-header">

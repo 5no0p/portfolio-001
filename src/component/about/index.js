@@ -31,7 +31,7 @@ const Content = () => {
        <div className="section-content grid grid-cols-12 flex" style={{marginLeft: "1.75rem",marginRight: "8rem"}}>
         <div className="col-span-1">
           <h5 className="vhead">about me</h5>
-          <div className="vl" style={{left:"30%"}}></div>
+          <div className="vl" style={{left:"30%",top:"13%"}}></div>
         </div>
         <div className="col-span-11">
           <div className="section-header">
