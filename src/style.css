@@ -545,6 +545,7 @@ font-weight: 600;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   position: relative;
+  height: 100%;
 }
 
 .pj-button-title{
@@ -554,7 +555,7 @@ font-weight: 600;
 
 .projects .wg-pj-content .wg-pj-button .pj-button::before {
   position: absolute;
-  height: 100%;
+  content: "";
   top: 0;
   right: 4%;
   bottom: 15%;
@@ -565,10 +566,10 @@ font-weight: 600;
   animation: btn_morph 3s linear infinite forwards;
   animation-play-state: paused;
   transition: 0.4s;
-  z-index: 10;
+  z-index: 0;
 }
 
-.projects .wg-pj-content .wg-pj-button .pj-button-before:hover{
+.projects .wg-pj-content .wg-pj-button .pj-button:hover::before{
   animation-play-state: running;
 }
 
