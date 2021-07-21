@@ -480,6 +480,8 @@ nav div div.contact-button {
   background-color: hsl(0,0%,13%);
   position: relative;
   overflow: hidden;
+  margin: 100px 0 100px;
+  box-shadow: 11px 10px 38px 0px rgb(0 0 0 / 20%);
 }
 
 .skills .sk-info .sk-content-layout{
@@ -506,4 +508,22 @@ nav div div.contact-button {
 
 .skills .sk-info .sk-background-layout .left {
   left: 0;
+}
+
+.skills .sk-info .sk-content-layout .sk-content div{
+  display: flex;
+  justify-content: center;
+}
+
+.skills .sk-info .sk-content-layout .sk-content .sk-content-value{
+  color: hsl(0,0%,100%);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 48px;
+}
+
+.skills .sk-info .sk-content-layout .sk-content .sk-content-title{
+  color: hsl(0,0%,78%);
+  font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: 600;
 }

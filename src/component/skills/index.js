@@ -151,23 +151,23 @@ const Skill = () => {
           <img src="https://uploads-ssl.webflow.com/60c74fe5b452ab1532ecd76b/60f8567ebcb3979c13592c23_Vector%202.svg"/>
         </span>
       </div>
-      
+
       <div className="sk-content-layout">
         <div className="sk-content">
-          <div className="">120</div>
-          <div className="">Happy Clients</div>
+          <div className="sk-content-value">120</div>
+          <div className="sk-content-title">Happy Clients</div>
         </div>
         <div className="sk-content">
-          <div className="">10</div>
-          <div className="">Years of Experience</div>
+          <div className="sk-content-value">10</div>
+          <div className="sk-content-title">Years of Experience</div>
         </div>
         <div className="sk-content">
-          <div className="">230</div>
-          <div className="">Incredible Projects</div>
+          <div className="sk-content-value">230</div>
+          <div className="sk-content-title">Incredible Projects</div>
         </div>
         <div className="sk-content">
-          <div className="">18</div>
-          <div className="">Awards Winning
+          <div className="sk-content-value">18</div>
+          <div className="sk-content-title">Awards Winning
         </div>
         </div>
       </div>
