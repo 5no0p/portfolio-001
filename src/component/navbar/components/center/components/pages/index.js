@@ -124,7 +124,7 @@ const ListItems = ({info}) =>{
       <li className="dropdown flex flex-wrap content-center group inline-block relative dropdown h-full cursor-pointer">
         <a href="#" className="flex justify-start">
           <div className="static ">
-            <div className="nab-prim dd-font font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
+            <div className="nab-prim dd-font block font-bold text-base relative tracking-wider z-10 mb-0.5 px-1" style={{margin: "0.13rem"}}>
               {info.name}
             </div>
             <div className={`-mt-4 static`} style={{height:"100%"}}>
